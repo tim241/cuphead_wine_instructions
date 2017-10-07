@@ -5,14 +5,18 @@
 ```wget https://raw.githubusercontent.com/tim241/cuphead_wine_instructions/master/cuphead.patch``` <br />
 # 3: Apply the patch <br /> 
 ```patch -p1 < cuphead.patch``` <br />
-# 4: Configure <br />
+# 4: Configure for 32-bit <br />
 ```./configure``` <br />
+# 4: Configure for 64-bit <br />
+```./configure --enable-win64``` <br />
 # 5: Compile <br />
 ```make -j5``` <br />
-# Install <br />
+# Linux Install <br />
 ```sudo make install prefix=/usr``` <br />
-# Uninstall
+# Linux Uninstall <br />
 ```sudo make uninstall prefix=/usr``` <br />
-# TL;DR <br />
-```git clone git://source.winehq.org/git/wine.git && cd wine && wget https://raw.githubusercontent.com/tim241/cuphead_wine_instructions/master/cuphead.patch && patch -p1 < cuphead.patch && ./configure && make -j5 && sudo make install prefix=/usr``` <br />
+# Mac Install <br />
+```sudo make install prefix=/usr/local``` <br />
+# Mac Uninstall <br />
+```sudo make uninstall prefix=/usr/local``` <br />
 
