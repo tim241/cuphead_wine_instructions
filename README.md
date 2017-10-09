@@ -33,7 +33,7 @@
 
 
 # Install <br />
-```sudo make install prefix=${prefix}``` <br />
+```sudo make install prefix=$prefix``` <br />
 # Uninstall <br />
-```sudo make uninstall prefix=${prefix}```<br />
+```sudo make uninstall prefix=$prefix```<br />
 
