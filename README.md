@@ -1,3 +1,9 @@
+# NOTE: this issue is fixed in wine-staging!
+# NOTE: this isn't required anymore!
+<br />
+<br />
+<br />
+
 # Setup
 # Execute required command for the platform before compiling
 * Linux  <br />
