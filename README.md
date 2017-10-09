@@ -1,5 +1,4 @@
-# NOTE: this issue is fixed in wine-staging!
-# NOTE: this isn't required anymore!
+# NOTE: this issue is fixed in wine-staging! [patch link](https://github.com/wine-compholio/wine-staging/blob/master/patches/setupapi-CM_Get_Parent/0001-setupapi-Return-CR_NO_SUCH_DEVNODE-from-CM_Get_Paren.patch)
 <br />
 <br />
 <br />
